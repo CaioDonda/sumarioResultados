@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.sumario-total {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-resultado {
+
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 25px;
+    padding: 30px;
+    gap: 30px;
+    color: hsl(241, 100%, 89%);
+
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+}
+
+.titulo {
+    text-align: center;
+    color: hsl(221, 100%, 96%);
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.pontuacao-circulo {
+    font-size: 60px;
+    color: hsl(221, 100%, 96%);
+
+}
+
+.container-sumario {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    width: 250px;
+    flex-direction: column;
+
+}
+
+.listas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    max-width: 400px;
+}
+
+.lista-sumario-categoria {
+    float: left;
+    width: 250px;
+}
+
+.tipo {
+    margin-bottom: 30px;
+
+}
+
+#reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.pontuacao-sumario {
+    width: 250px;
+    float: right;
+    font-weight: lighter;
+
+}
+
+.pontuacao {
+    margin-bottom: 30px;
+    color: hsl(241, 100%, 89%);
+}
+
+.negrito {
+    font-weight: bold;
+    color: hsl(224, 30%, 27%);
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    height: 50px;
+    background: hsl(224, 30%, 27%);
+    border-radius: 40px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    transition: color 0.3s;
+}
